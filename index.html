@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- Declares the document type as HTML5 -->
+<html lang="en">
+<!-- The root element of the HTML document -->
+<head>
+    <!-- Meta information about your website -->
+    <meta charset="UTF-8">
+    <!-- Ensures proper scaling on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The title of your website that appears in the browser tab -->
+    <title>My Personal Website</title>
+    <!-- Link to a CSS file for styling (optional, will add later) -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main content of your website -->
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+        <!-- Navigation bar -->
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I'm [Your Name]. This is my personal website where I share my work and connect with clients.</p>
+        <!-- Placeholder for your photo -->
+        <img src="yourphoto.jpg" alt="Your Name" style="width:200px; height:200px; border-radius:50%;">
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>What My Clients Say</h2>
+        <blockquote>"Amazing work! Highly recommend." - Client Name</blockquote>
+        <blockquote>"Professional and reliable." - Another Client</blockquote>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
